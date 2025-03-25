@@ -162,7 +162,7 @@ export default function AddToCart() {
 																			<div className='flex justify-between text-base font-medium text-gray-900'>
 																				<h3>{basket.product.title}</h3>
 																				<p className='ml-4'>
-																					{basket.product.price} so'm
+																					$ {basket.product.price}
 																				</p>
 																			</div>
 																			<p className='mt-1 text-sm text-gray-500'>
@@ -226,7 +226,7 @@ export default function AddToCart() {
 												<>
 													<div className='flex justify-between text-base font-medium text-gray-900'>
 														<p>Umumiy narxi</p>
-														<p>{totalPrice()} so'm</p>
+														<p>$ {totalPrice()} </p>
 													</div>
 													<div className='mt-6'>
 														<button

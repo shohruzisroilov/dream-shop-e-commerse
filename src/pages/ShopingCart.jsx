@@ -150,7 +150,7 @@ function ShopingCart() {
 							icon={<MdOutlineRealEstateAgent />}
 						/>
 						<DetailText
-							title={`Narxi: ${productDetail.price} so'm`}
+							title={`Narxi: $ ${productDetail.price}`}
 							icon={<MdOutlinePriceChange />}
 						/>
 						<DetailText
