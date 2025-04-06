@@ -6,6 +6,7 @@ import {
 	Login,
 	SignUp,
 	Error404Page,
+	PaymentPage,
 } from './index'
 import { useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
@@ -38,6 +39,7 @@ function App() {
 				<Route path='/' element={<Layouts />}>
 					<Route index element={<HomePage />} />
 					<Route path='/shoping/:postId' element={<ShopingCart />} />
+					<Route path='/shopping/payment' element={<PaymentPage />} />
 				</Route>
 				<Route path='/login' element={<Login />} />
 				<Route path='/register' element={<SignUp />} />

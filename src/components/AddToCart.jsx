@@ -229,13 +229,15 @@ export default function AddToCart() {
 														<p>$ {totalPrice()} </p>
 													</div>
 													<div className='mt-6'>
-														<button
-															type='submit'
-															className='w-full flex items-center justify-center rounded-md border border-transparent bg-orange-400 px-6 py-3 text-base font-medium text-white shadow-sm hover:bg-orange-300'
-															onClick={createProductOrder}
-														>
-															Sotib olish
-														</button>
+														<Link to='/shopping/payment'>
+															<button
+																type='submit'
+																className='w-full flex items-center justify-center rounded-md border border-transparent bg-orange-400 px-6 py-3 text-base font-medium text-white shadow-sm hover:bg-orange-300'
+																// onClick={createProductOrder}
+															>
+																Sotib olish
+															</button>
+														</Link>
 													</div>
 												</>
 											)}
