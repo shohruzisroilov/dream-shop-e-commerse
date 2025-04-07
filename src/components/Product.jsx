@@ -27,7 +27,7 @@ function Product({ id, image1, category, title, description, price }) {
 			</p>
 			<span className='pt-[12px] flex justify-between'>
 				<p className='text-black text-14px font-[500] leading-normal'>
-					$ {price}
+					{`${price} so'm`}
 				</p>
 				<div
 					className={`${styles.btnSecondary} flex items-center gap-x-2 px-[10px] py-1`}
